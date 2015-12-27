@@ -1,0 +1,57 @@
+{
+    "name": "bump-framework",
+    "version": "0.0.1",
+    "description": "The simple framework for quick web page projects setups.",
+    "license": "MIT",
+    "homepage": "https://github.com/isis97",
+    "author": {
+        "name": "isis97",
+        "site": "https://github.com/isis97"
+    },
+    "preferGlobal": "true",
+    "main": "./bumpfr.js",
+    "bin" : {
+      "bumpfr" : "./bumpfr.js"
+    },
+    "dependencies": {
+      "colors": "*",
+      "commander": "*",
+      "grunt-cli": "*",
+      "bower": "*",
+      "load-grunt-tasks": "*",
+      "grunt-bower-task": "*",
+      "grunt-contrib-clean": "*",
+      "grunt-contrib-copy": "*",
+      "grunt-contrib-concat": "*",
+      "grunt-prompt": "*",
+      "factor-bundle": "*",
+      "ansi-to-html": "*",
+      "grunt-includes": "*",
+      "grunt-contrib-connect": "*",
+      "grunt-html-generator": "*",
+      "grunt-contrib-watch": "*",
+      "grunt-watchify": "*",
+      "browserify": "*",
+      "stringify": "*",
+      "browserify-derequire": "*",
+      "progress": "*",
+      "grunt-browserify": "*",
+      "uglifyify": "*",
+      "grunt-contrib-uglify": "*",
+      "grunt-jsmin-sourcemap": "*",
+      "errorify": "*",
+      "stripify": "*",
+      "brfs": "*",
+      "licensify": "*",
+      "debowerify": "*",
+      "grunt-inline-css": "*",
+      "grunt-contrib-htmlmin": "*",
+      "requirejs": "*",
+      "grunt-import": "*",
+      "grunt-contrib-coffee": "*",
+      "grunt-contrib-jade": "*"
+    },
+    "devDependencies": {
+
+    }
+}
